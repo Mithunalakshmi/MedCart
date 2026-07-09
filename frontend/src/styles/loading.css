@@ -1,0 +1,53 @@
+.loading-container{
+
+height:70vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+gap:20px;
+
+}
+
+.loader{
+
+width:60px;
+
+height:60px;
+
+border:8px solid #ddd;
+
+border-top:8px solid #0f766e;
+
+border-radius:50%;
+
+animation:spin 1s linear infinite;
+
+}
+
+@keyframes spin{
+
+0%{
+
+transform:rotate(0deg);
+
+}
+
+100%{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+.loading-container h2{
+
+color:#0f766e;
+
+}

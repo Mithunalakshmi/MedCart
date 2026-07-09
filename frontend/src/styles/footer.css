@@ -1,0 +1,59 @@
+.footer{
+
+background:#0f766e;
+
+color:white;
+
+text-align:center;
+
+padding:40px 20px;
+
+margin-top:60px;
+
+}
+
+.footer h2{
+
+margin-bottom:15px;
+
+}
+
+.footer p{
+
+margin:10px 0;
+
+font-size:17px;
+
+}
+
+.footer hr{
+
+margin:20px auto;
+
+width:200px;
+
+opacity:.4;
+
+}
+
+@media(max-width:768px){
+
+.footer{
+
+padding:30px 15px;
+
+}
+
+.footer h2{
+
+font-size:26px;
+
+}
+
+.footer p{
+
+font-size:15px;
+
+}
+
+}

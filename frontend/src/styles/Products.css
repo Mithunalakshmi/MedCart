@@ -1,0 +1,48 @@
+.products-container{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+    justify-content:center;
+
+    padding:40px;
+
+}
+/* ========================= */
+/* Responsive Products Page  */
+/* ========================= */
+
+.products-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+padding:40px;
+
+}
+
+@media(max-width:768px){
+
+.products-container{
+
+grid-template-columns:1fr;
+
+padding:20px;
+
+gap:20px;
+
+}
+
+.products-title{
+
+font-size:30px;
+
+}
+
+}
